@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+}
+
+button {
+    display: block;
+    width: 150px;
+    margin: 8px 75px;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #15a562;
+    border: none;
+}
+
+button:hover {
+    background-color: #27df89;
+}
